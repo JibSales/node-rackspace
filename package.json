@@ -1,0 +1,21 @@
+{
+  "name": "node-rackspace",
+  "version": "0.0.1",
+  "description": "A wrapper library around the Rackspace APIs with a clean, chainable API",
+  "author": "Sean R. Quinn <sean@jibsales.com> (www.jibsales.com)",
+  "main": "./lib/rackspace.js",
+  "scripts": {
+    "test": "NODE_ENV=testing mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/JibSales/node-rackspace.git"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mocha": "~1.9.0",
+    "should": "~1.2.2",
+    "supertest": "~0.6.0"
+  }
+}
