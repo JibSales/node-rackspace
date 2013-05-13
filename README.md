@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Rackspace API for Node.js
 ##Developer's Note
 This library is not officialy supported by Rackspace. Though I use it in production, its advised that you do so at your own risk. Please see the included LICENCE file for license details.
@@ -70,10 +69,3 @@ rackspace.auth(options, function (err) {
 ##API
 ###Cloud Files
 ######Containers
-
-=======
-node-rackspace
-==============
-
-A nodejs client library for the Rackspace Cloud APIs
->>>>>>> 1f1aba21f52a61735b0cdf56a15aaf8ba48e5435
