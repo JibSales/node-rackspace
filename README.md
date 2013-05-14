@@ -23,7 +23,7 @@ To install `node-rackspace` for use in your project, use npm:
 ```
 ### Example as Express middleware
 
-```
+```javascript
 var rackspace = require('node-rackspace'),
     express   = require('express'),
     app       = module.exports = express();
@@ -44,13 +44,12 @@ app.get('/some/route', rackspace.init(options), function (req, res, next) {
     .createContainer('MyContainer')
     .exec(…)
 });
-
 ```
 
 When used as middleware, `node-rackspace` automatically tracks and renews your API token.
 
 ###Use as stand alone wrapper
-```
+```javascript
 var rackspace = require('node-rackspace');
 
 // Options hash to load Rackspace credentials
